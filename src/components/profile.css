@@ -1,0 +1,176 @@
+
+ /* body{ 
+ background-image: url('../components/tarek-4jpg.jpeg');
+
+ } */
+
+.profile-container{
+display: flex; 
+align-items: center; 
+ text-align: center; 
+justify-content: space-between; 
+ min-height: fit-content; 
+ background-image: url('../components/tarek-6.jpg');
+
+
+}
+.profile-parents{
+display: flex;
+align-items: center;
+color: aliceblue;
+}
+
+.profile-details-name{
+    font-size: 25px;
+    font-family: "Poppins SemiBold";
+}
+.profile-details-role{
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 24px 0;
+
+}
+
+.profile-details-role h3{
+  font-family: cursive;
+  font-size: 40px;
+
+}
+.primary-text{
+color: white;
+}
+
+.profile-role-tagline{
+    font-size: 19px;
+    margin: 5px 0px 0px 40px;
+    font-family: "Poppins Light";
+}
+.profile-option.highlighted-btn {
+    margin: 0 0 0 28px;
+}
+
+.profile-option.highlighted-btn:hover{
+    margin: 0 0 0 28px;
+    background-color:cornsilk ;
+    color: black;
+}
+
+.profile-pic{
+display: flex;  
+align-items: center; 
+ text-align: center; 
+
+ /* box-shadow:  0 1px 0 0 white; */
+ border-radius: 50%;
+ height: 380px;
+ width: 310px;
+ margin: 0 20px 0px 100px;
+ margin-left: 270px;
+ margin-top: 40px;
+}
+
+.profile-pic-backGround{
+    width: 90%;
+    height: 90%;
+    background-image: url('../components/Tarek.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.profile-pic-backGround:hover{
+transform: scale(1.04);
+transition: 3s ease-out;
+}
+.colz .colz-icons i{
+    color: white;
+    padding: 30px;
+    padding-left: 0px;
+    width: 60px;
+    font-size: 22px;
+}
+
+.colz .colz-icons:hover{
+    transform: scale(1.05);
+}
+/* for ipad bro */
+@media screen  and (max-width :1110px){
+.profile-pic{ 
+    margin: 0 0px 0 80px;
+}
+.profile-details-name{
+    font-size: 20px;
+}
+.primary-text .profile-details-role{
+    font-size: 20px;
+}
+.profile-option .btn{
+    width: 20px;
+    padding: 11px 0;
+    z-index: 700;
+}
+}
+
+
+@media screen  and (max-width :910px){
+    .profile-pic{ 
+       height: 320px; 
+       width: 320px;
+       margin: 0 0 0 4px;
+    }
+}
+
+@media screen  and (max-width :810px){
+.profile-pic{ 
+        margin: 0 !important;
+    } 
+.profile-parents{
+flex-direction: column-reverse;
+margin: 40px 0 0 0;
+}
+.profile-option{
+display: flex;
+justify-content: space-between;
+}
+.profile-details{
+margin: 25px 0 0 ;
+}
+.highlighted-btn .profile-option{
+    margin: 0 !important;
+}
+.profile-option, .profile-details-role{
+    text-align: center;
+}
+}
+
+@media screen  and (max-width :375px){
+    .profile-pic{
+      height: 275px;
+      width: 275px;
+      margin-top: -90px;
+    }
+    .profile-details{
+        width: 90%;
+    }
+}
+
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+  }
+  
+  .fas{
+    font-size: 15px;
+  }
+  .row{
+   color: rgb(119, 65, 65);
+   
+  }
+  .card-action{
+    font-size: 100%;
+    font-weight: 900px;
+     }
+  
