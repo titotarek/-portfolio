@@ -1,6 +1,7 @@
 
 import 'materialize-css/dist/css/materialize.min.css';
 import 'materialize-css/dist/js/materialize.min.js';
+import 'semantic-ui-css/semantic.min.css'
 import './App.css';
 import Profile from './components/Profile';
 import Skills from './components/Skiles';

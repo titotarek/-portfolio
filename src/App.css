@@ -81,4 +81,15 @@ font-family:'cursive';
   width: 50%;
   margin: 5%;
   padding: 20px 0 0 ;
+ font-size: 18px; 
+}
+#Contact-Me{
+  text-align: center;
+  font-size: 25px;
+}
+.icon-footer{
+margin-left: 500px;
+margin-bottom: 0;
+padding-bottom: 0;
+font-size: 16px;
 }
